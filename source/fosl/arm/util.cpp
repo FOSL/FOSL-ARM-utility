@@ -1,11 +1,6 @@
-#include "fosl/arm/util.h"
+#ifndef _FOSL_ARM_UTIL_H_
+#define _FOSL_ARM_UTIL_H_
 
-namespace fosl
-{
-	namespace arm
-	{
-		namespace util
-		{
-		}
-	}
-}
+#include <fosl/util.h>
+
+#endif
