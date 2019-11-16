@@ -1,19 +1,6 @@
-#ifndef _LIB_UTIL_H_
-#define _LIB_UTIL_H_
+#ifndef _FOSL_ARM_UTIL_H_
+#define _FOSL_ARM_UTIL_H_
 
-#include <stdint.h>
-#include <stddef.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
-#include <sys/unistd.h>
-#include <errno.h>
-#include <string.h>
-#include <inttypes.h>
-
-#include <fosl/math/util.h>
-
-#include "fosl/util/assert.h"
-#include "fosl/util/bits.h"
+#include <fosl/util.h>
 
 #endif
