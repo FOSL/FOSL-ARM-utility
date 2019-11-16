@@ -3,15 +3,15 @@ project(fosl-arm-util)
 add_library(
 	${PROJECT_NAME}
 
-	./util/assert.h
-	./util/bits.h
-	./util.cpp
-	./util.h
+	./fosl/arm/util/assert.h
+	./fosl/arm/util/bits.h
+	./fosl/arm/util.cpp
+	./fosl/arm/util.h
 )
 
 target_include_directories(
 	${PROJECT_NAME} PUBLIC
 
 	${PROJECT_SOURCE_DIR}
-	${math_SOURCE_DIR}
+	${fosl-math_SOURCE_DIR}
 )
