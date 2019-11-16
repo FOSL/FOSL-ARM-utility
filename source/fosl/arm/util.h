@@ -11,9 +11,9 @@
 #include <string.h>
 #include <inttypes.h>
 
-#include <math/util.h>
+#include <fosl/math/util.h>
 
-#include "util/assert.h"
-#include "util/bits.h"
+#include "fosl/util/assert.h"
+#include "fosl/util/bits.h"
 
 #endif
