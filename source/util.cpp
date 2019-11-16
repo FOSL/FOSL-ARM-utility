@@ -1,5 +1,11 @@
 #include "util.h"
 
-namespace Fosl
+namespace fosl
 {
+	namespace arm
+	{
+		namespace util
+		{
+		}
+	}
 }

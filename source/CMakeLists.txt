@@ -1,4 +1,4 @@
-project(util)
+project(fosl-arm-util)
 
 add_library(
 	${PROJECT_NAME}
@@ -14,11 +14,4 @@ target_include_directories(
 
 	${PROJECT_SOURCE_DIR}
 	${math_SOURCE_DIR}
-)
-
-set_target_properties(
-	${PROJECT_NAME}
-
-	PROPERTIES
-	COMPILE_FLAGS "${MCU}"
 )
