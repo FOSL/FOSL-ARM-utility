@@ -1,5 +1,11 @@
-# fosl-arm-util
+# FOSL-ARM-Utilities
 
-QoL improvements for development on ARM MCUs.
+## Description
 
-Depends on fosl-math
+QoL ARM specific improvements.
+
+## Dependencies
+
+* [FOSL-Utilities].
+
+[FOSL-Utilities]: https://github.com/martinmake/FOSL-Utilities
