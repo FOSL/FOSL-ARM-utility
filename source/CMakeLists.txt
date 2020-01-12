@@ -1,10 +1,10 @@
-project(FOSL-ARM-Utilities)
+project(FOSL-ARM-utility)
 
 add_library(
 	${PROJECT_NAME}
 
-	./FOSL/ARM/Utilities.hpp
-	./FOSL/ARM/Utilities.cpp
+	./FOSL/ARM/utility.hpp
+	./FOSL/ARM/utility.cpp
 )
 
 target_include_directories(
@@ -16,5 +16,5 @@ target_include_directories(
 target_link_libraries(
 	${PROJECT_NAME}
 
-	FOSL-Utilities
+	FOSL-utility
 )

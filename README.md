@@ -1,4 +1,4 @@
-# FOSL-ARM-Utilities
+# FOSL-ARM-utility
 
 ## Description
 
@@ -6,6 +6,6 @@ QoL ARM specific improvements.
 
 ## Dependencies
 
-* [FOSL-Utilities].
+* [FOSL-utility].
 
-[FOSL-Utilities]: https://github.com/martinmake/FOSL-Utilities
+[FOSL-utility]: https://github.com/martinmake/FOSL-utility
